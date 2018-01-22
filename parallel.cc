@@ -10,8 +10,6 @@
 #include <numeric>
 #include <vector>
 
-PYCPP_USING_NAMESPACE;
-
 // TESTS
 // -----
 

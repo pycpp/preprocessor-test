@@ -10,8 +10,6 @@
 #include <thread>
 #include <vector>
 
-PYCPP_USING_NAMESPACE
-
 // STORAGE
 // -------
 
