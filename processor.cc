@@ -14,7 +14,7 @@
 
 TEST(processor, system_architecture)
 {
-#ifndef PROCESSOR_DETECTED
+#ifndef PYCPP_PROCESSOR_DETECTED
 #   error "Processor not detected."
 #endif
 }

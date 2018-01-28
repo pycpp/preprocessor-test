@@ -14,7 +14,7 @@
 
 TEST(cache, cacheline_size)
 {
-#ifndef CACHELINE_SIZE
+#ifndef PYCPP_CACHELINE_SIZE
 #   error "Cache line size not detected."
 #endif
 }

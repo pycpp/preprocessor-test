@@ -14,19 +14,19 @@
 
 TEST(compiler, compiler)
 {
-#ifndef COMPILER_DETECTED
+#ifndef PYCPP_COMPILER_DETECTED
 #   error "Compiler not detected."
 #endif
 
-#ifndef COMPILER_MAJOR_VERSION
+#ifndef PYCPP_COMPILER_MAJOR_VERSION
 #   error "Compiler major version not detected."
 #endif
 
-#ifndef COMPILER_MINOR_VERSION
+#ifndef PYCPP_COMPILER_MINOR_VERSION
 #   error "Compiler minor version not detected."
 #endif
 
-#ifndef COMPILER_PATCH_VERSION
+#ifndef PYCPP_COMPILER_PATCH_VERSION
 #   error "Compiler patch version not detected."
 #endif
 }
